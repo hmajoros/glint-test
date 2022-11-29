@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "compilerOptions": {
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "module": "es2020",
+    "moduleResolution": "node",
+    "newLine": "lf",
+    "target": "ES2021",
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true
+  }
+}

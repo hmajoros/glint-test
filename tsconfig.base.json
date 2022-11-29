@@ -1,0 +1,63 @@
+{
+  "extends": "./tsconfigs/linkedin-ember-addon-tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": "./",
+    /* Visit https://aka.ms/tsconfig.json to read more about this file */
+
+    // Re-enable this when https://github.com/typed-ember/glint/issues/459 is fixed
+    "isolatedModules": false,
+
+    // Incremental builds allow reuse of existing build artifacts. If we choose
+    // and find the tradeoffs worth it, these artifacts can be committed to the
+    // repository so that, in conjunction with AIDE, we can maintain "local
+    // build" support even with TS and checking the whole project.
+    "incremental": true,
+
+    // We want to fail the build if there is something wrong with the types!
+    "noEmitOnError": true,
+
+    // We intentionally and explicitly do *not* type check JS files.
+    "allowJs": false,
+    "checkJs": false,
+
+    // We are not using TS itself to generate output of any sort. However, to
+    // make project references and composite projects work, we *do* need to
+    // allow the generation of declarations and declaration maps.
+    // the ts-bases ember-app config has these disabled, so we need to re-enable
+    "declaration": true,
+    "declarationMap": true,
+    "emitDeclarationOnly": true,
+
+    // ts-bases enables this setting, which we need to re-disable because it clashes
+    // with emitDeclarationOnly. ember-cli-typescript adds `noEmit: true` as part
+    // of spinning up its typechecking worker
+    "noEmit": false,
+
+    // "tsBuildInfoFile": "./",                     /* Specify file to store incremental compilation information */
+
+    // allow property access via dot notation, which has large usage in voyager-web
+    "noPropertyAccessFromIndexSignature": false,
+
+    // Explicitly set our "interop" strategy to force usage of ES Modules
+    "allowSyntheticDefaultImports": false,
+    "esModuleInterop": false,
+
+    /* Experimental Options */
+    // We need `experimentalDecorators` for TS to understand Ember's use of
+    // decorators, but that usage does *not* entail emitting metadata.
+    "emitDecoratorMetadata": false,
+
+    /* Advanced Options */
+    "skipLibCheck": true /* Skip type checking of declaration files. */,
+
+    "paths": {
+      "package-a/*": ["./packages/package-a/addon/*"],
+      "package-b/*": ["./packages/package-b/addon/*"],
+      "*": ["./types/*"]
+    }
+  },
+  "include": ["./packages/**/*", "tests/**/*", "types/**/*"],
+  "glint": {
+    "environment": "ember-loose"
+  }
+}

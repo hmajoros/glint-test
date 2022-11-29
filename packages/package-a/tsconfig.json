@@ -1,0 +1,13 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "composite": true,
+  },
+  "references": [{
+    "path": "../package-b"
+  }],
+  "include": ["./addon/**/*", "../../../types"],
+  "glint": {
+    "environment": "ember-loose"
+  }
+}
