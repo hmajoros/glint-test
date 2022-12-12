@@ -6,6 +6,6 @@
   },
   "include": ["./addon/**/*", "../../../types"],
   "glint": {
-    "environment": "ember-loose"
+    "environment": "ember-template-imports"
   }
 }

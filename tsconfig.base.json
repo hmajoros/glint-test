@@ -58,6 +58,6 @@
   },
   "include": ["./packages/**/*", "tests/**/*", "types/**/*"],
   "glint": {
-    "environment": "ember-loose"
+    "environment": "ember-template-imports"
   }
 }
