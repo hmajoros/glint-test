@@ -1311,10 +1311,10 @@
   dependencies:
     babel-plugin-debug-macros "^0.3.4"
 
-"@glint/core@^1.0.0-beta.1":
-  version "1.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@glint/core/-/core-1.0.0-beta.1.tgz#1618113d8162912a99dd8e8836e6c50aa68c522a"
-  integrity sha512-J3c5xvAw5IShwqD6h3LFLHKT70D39tS3R6w0RaSIyrWUEx2VDVOMAM9RnggT3RvuGAO5ntYxFZso9CaNE5iMYA==
+"@glint/core@^1.0.0-beta.2":
+  version "1.0.0-beta.2"
+  resolved "https://registry.yarnpkg.com/@glint/core/-/core-1.0.0-beta.2.tgz#68682d4663e2ae3eebfd0682b9f9505e4a33bb6f"
+  integrity sha512-LmQ7I0BXGzL5FhtaXXUCNUfGnqK6s+WKbcT0VcL3vxfMYW4btCzcWMOrBOhczI1+yYbPdVe++Rb+l0ovWURPzQ==
   dependencies:
     "@glimmer/syntax" "^0.84.2"
     escape-string-regexp "^4.0.0"
@@ -1325,15 +1325,15 @@
     vscode-uri "^3.0.2"
     yargs "^17.5.1"
 
-"@glint/environment-ember-loose@^1.0.0-beta.1":
-  version "1.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@glint/environment-ember-loose/-/environment-ember-loose-1.0.0-beta.1.tgz#9587f23049f347eeda25f101f90d632fb8ee2b41"
-  integrity sha512-S7Rs03GJp/nDh1t0tI78HIIJGOt2yUYS6Gd+EHroYO3pi69aNENcZmCjFbqQPTAoEOdE7jTaAF4iM91cUQHlEw==
+"@glint/environment-ember-loose@^1.0.0-beta.2":
+  version "1.0.0-beta.2"
+  resolved "https://registry.yarnpkg.com/@glint/environment-ember-loose/-/environment-ember-loose-1.0.0-beta.2.tgz#a189f7454a8404b5a5062c3bef554cf1043bfeff"
+  integrity sha512-WIsccams5kKvv8ECXQgrT1iySYYXWa+k5B4+1HFowr51ojkizFYrG5skAjIKX/7+ChuqpSLCAPquEOAp24Zhhw==
 
-"@glint/template@^1.0.0-beta.1":
-  version "1.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@glint/template/-/template-1.0.0-beta.1.tgz#2474d5cde637c8742f3da39c53ccffae03bcb997"
-  integrity sha512-JQboeRc9BCuYu2Avle592L+gWxKvJggwxkNKxpHlOeg9Xng5f/sMvG6yWssC8J4fURJmH5tvF7e/BgdUAMegeg==
+"@glint/template@^1.0.0-beta.2":
+  version "1.0.0-beta.2"
+  resolved "https://registry.yarnpkg.com/@glint/template/-/template-1.0.0-beta.2.tgz#ed13ca4f0e6c616579d9eb9c6b11eac49899c742"
+  integrity sha512-gaWiWAjvmgOTmHUqXt+fACINMSnOxKcPYEwb6A6DNYpCaKWxhxqIjIrQLdrumULLK9+MbxMrIa3Od05FcIDQFQ==
 
 "@handlebars/parser@^1.1.0":
   version "1.1.0"

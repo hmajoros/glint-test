@@ -56,7 +56,7 @@
       "*": ["./types/*"]
     }
   },
-  "include": ["./packages/**/*", "tests/**/*", "types/**/*"],
+  "include": [ "tests/**/*", "types/**/*"],
   "glint": {
     "environment": "ember-loose"
   }
