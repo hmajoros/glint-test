@@ -1,0 +1,9 @@
+{
+  "name": "package-js-only",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "package-a": "*"
+  }
+}
